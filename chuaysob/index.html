@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>ช่วยสอบ</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <style>
+      body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        padding: 2em 0em;
+        width: 100%;
+        margin: 0;
+      }
+      strong {
+        font-size: 1.5em;
+      }
+      .introSection {
+        max-width: 720px;
+        margin: 0 auto !important;
+        float: none !important;
+      }
+      .logoTextSection {
+        margin-left: 24px;
+        margin-bottom: 2.75em;
+      }
+      .subtitleText {
+        color: grey;
+        font-weight: 300;
+        line-height: 1.5;
+      }
+      .orangeBackGround {
+        background-color: rgba(255, 152, 0, 0.1);
+      }
+      a {
+        margin: 0.5em 0;
+        text-decoration: none;
+        color: grey;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+
+      @media screen and (min-width: 881px) {
+        p {
+          font-size: 1.05em;
+          line-height: 1.6;
+        }
+        .logo {
+          border-radius: 25%;
+          width: 200px;
+          height: 200px;
+        }
+        .titleText {
+          font-size: xx-large;
+          font-weight: 600;
+          margin: 0.5em 0;
+        }
+        .logoSection {
+          max-width: 400px;
+          margin: 0 auto !important;
+          float: none !important;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 1em 0 2em 0;
+        }
+        .downloadSection {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 1.5em 0;
+        }
+        .downloadBannerIos {
+          height: 74px;
+          padding: 0 1em;
+        }
+        .downloadBannerAndroid {
+          height: 90px;
+          padding: 0 1em;
+        }
+        .screenshotRight {
+          width: 300px;
+          margin: 0 0 0 3em;
+        }
+        .screenshotLeft {
+          width: 300px;
+          margin: 0 3em 0 0;
+        }
+        .screenshotSectionRight {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 3em 0;
+          max-width: 880px;
+          margin: 0 auto !important;
+          float: none !important;
+        }
+        .screenshotSectionLeft {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 3em 0;
+          max-width: 880px;
+          margin: 0 auto !important;
+          float: none !important;
+        }
+        .footerSection {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          padding: 2em 0;
+          max-width: 880px;
+          margin: 0 auto !important;
+          float: none !important;
+        }
+      }
+      @media screen and (max-width: 880px) {
+        p {
+          font-size: 1em;
+          line-height: 1.6;
+          padding: 0 1em;
+        }
+        h2 {
+          padding: 0 0.5em;
+        }
+        .logo {
+          border-radius: 25%;
+          width: 100px;
+          height: 100px;
+        }
+        .titleText {
+          font-size: larger;
+          font-weight: 600;
+        }
+        .logoSection {
+          max-width: 400px;
+          display: flex;
+          flex-direction: row;
+          padding: 0 2.5em;
+        }
+        .downloadSection {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 0.75em 0;
+        }
+        .downloadBannerIos {
+          height: 74px;
+          margin-bottom: 1em;
+        }
+        .downloadBannerAndroid {
+          height: 86px;
+          object-fit: contain;
+        }
+        .screenshotRight {
+          width: 300px;
+        }
+        .screenshotLeft {
+          width: 300px;
+        }
+        .screenshotSectionRight {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 1em 0 3em 0;
+          max-width: 880px;
+          margin: 0 auto !important;
+          float: none !important;
+        }
+        .screenshotSectionLeft {
+          display: flex;
+          flex-direction: column-reverse;
+          justify-content: center;
+          align-items: center;
+          padding: 1em 0 3em 0;
+          max-width: 880px;
+          margin: 0 auto !important;
+          float: none !important;
+        }
+        .footerSection {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 3em 0 1em 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logoSection">
+      <img class="logo" src="./assets/chuay_sob.png" alt="Logo" />
+      <div class="logoTextSection">
+        <div class="titleText"><strong>ช่วยสอบ</strong></div>
+        <div class="subtitleText">สอบง่ายๆแค่ปลายนิ้ว ทุกที่ ทุกเวลา ฟรี</div>
+      </div>
+    </div>
+
+    <div class="introSection">
+      <p style="margin-top: 0px">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec nibh eu
+        enim varius imperdiet ut sit amet magna. Phasellus vitae orci vulputate,
+        elementum neque sed, condimentum massa. Praesent lobortis sollicitudin
+        elementum. Phasellus maximus ante nec maximus consectetur. Phasellus at
+        metus neque. Vivamus euismod mauris lacus. Aenean placerat mi malesuada
+        quam tristique lobortis.
+      </p>
+
+      <div class="downloadSection">
+        <img
+          class="downloadBannerIos"
+          src="./assets/download_appstore.svg"
+          alt="Download on the App Store"
+        />
+        <img
+          class="downloadBannerAndroid"
+          src="./assets/download_googleplay.png"
+          alt="Download on the App Store"
+        />
+      </div>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec nibh eu
+        enim varius imperdiet ut sit amet magna. Phasellus vitae orci vulputate,
+        elementum neque sed, condimentum massa. Praesent lobortis sollicitudin
+        elementum. Phasellus maximus ante nec maximus consectetur. Phasellus at
+        metus neque. Vivamus euismod mauris lacus. Aenean placerat mi malesuada
+        quam tristique lobortis.
+      </p>
+    </div>
+
+    <div class="orangeBackGround">
+      <div class="screenshotSectionRight">
+        <div>
+          <h2>Title Here</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec
+            nibh eu enim varius imperdiet ut sit amet magna. Phasellus vitae
+            orci vulputate, elementum neque sed, condimentum massa. Praesent
+            lobortis sollicitudin elementum. Phasellus maximus ante nec maximus
+            consectetur. Phasellus at metus neque. Vivamus euismod mauris lacus.
+            Aenean placerat mi malesuada quam tristique lobortis.
+          </p>
+        </div>
+        <img
+          class="screenshotRight"
+          src="./assets/screenshot1.png"
+          alt="Screenshot 1"
+        />
+      </div>
+    </div>
+
+    <div>
+      <div class="screenshotSectionLeft">
+        <img
+          class="screenshotLeft"
+          src="./assets/screenshot1.png"
+          alt="Screenshot 1"
+        />
+        <div>
+          <h2>Title Here</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec
+            nibh eu enim varius imperdiet ut sit amet magna. Phasellus vitae
+            orci vulputate, elementum neque sed, condimentum massa. Praesent
+            lobortis sollicitudin elementum. Phasellus maximus ante nec maximus
+            consectetur. Phasellus at metus neque. Vivamus euismod mauris lacus.
+            Aenean placerat mi malesuada quam tristique lobortis.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="orangeBackGround">
+      <div class="screenshotSectionRight">
+        <div>
+          <h2>Title Here</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec
+            nibh eu enim varius imperdiet ut sit amet magna. Phasellus vitae
+            orci vulputate, elementum neque sed, condimentum massa. Praesent
+            lobortis sollicitudin elementum. Phasellus maximus ante nec maximus
+            consectetur. Phasellus at metus neque. Vivamus euismod mauris lacus.
+            Aenean placerat mi malesuada quam tristique lobortis.
+          </p>
+        </div>
+        <img
+          class="screenshotRight"
+          src="./assets/screenshot1.png"
+          alt="Screenshot 1"
+        />
+      </div>
+    </div>
+
+    <div>
+      <div class="screenshotSectionLeft">
+        <img
+          class="screenshotLeft"
+          src="./assets/screenshot1.png"
+          alt="Screenshot 1"
+        />
+        <div>
+          <h2>Title Here</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec
+            nibh eu enim varius imperdiet ut sit amet magna. Phasellus vitae
+            orci vulputate, elementum neque sed, condimentum massa. Praesent
+            lobortis sollicitudin elementum. Phasellus maximus ante nec maximus
+            consectetur. Phasellus at metus neque. Vivamus euismod mauris lacus.
+            Aenean placerat mi malesuada quam tristique lobortis.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center">
+      <h2>ดาวน์โหลดได้แล้ววันนี้</h2>
+      <div class="downloadSection" style="padding: 0px">
+        <img
+          class="downloadBannerIos"
+          src="./assets/download_appstore.svg"
+          alt="Download on the App Store"
+        />
+        <img
+          class="downloadBannerAndroid"
+          src="./assets/download_googleplay.png"
+          alt="Download on the App Store"
+        />
+      </div>
+    </div>
+
+    <div class="footerSection">
+      <a href="https://healingwave.github.io/chuaysob/privacy"
+        >นโยบายความเป็นส่วนตัว</a
+      >
+      <a href="https://healingwave.github.io/chuaysob/terms"
+        >ข้อกำหนดและเงื่อนไข</a
+      >
+      <a href="">เพจเฟสบุ๊ค</a>
+      <a href="https://healingwave.github.io/chuaysob/contact">ติดต่อช่วยสอบ</a>
+    </div>
+  </body>
+</html>
