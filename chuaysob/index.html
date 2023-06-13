@@ -32,12 +32,12 @@
       .orangeBackGround {
         background-color: rgba(255, 152, 0, 0.1);
       }
-      a {
+      .link {
         margin: 0.5em 0;
         text-decoration: none;
         color: grey;
       }
-      a:hover {
+      .link:hover {
         text-decoration: underline;
       }
 
@@ -143,11 +143,10 @@
           display: flex;
           flex-direction: column;
           justify-content: center;
-          padding: 0.75em 0;
+          align-items: center;
         }
         .downloadBannerIos {
           height: 74px;
-          margin-bottom: 1em;
         }
         .downloadBannerAndroid {
           height: 86px;
@@ -184,7 +183,7 @@
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          padding: 3em 0 1em 0;
+          padding: 1em 0;
         }
       }
     </style>
@@ -331,14 +330,16 @@
     </div>
 
     <div class="footerSection">
-      <a href="https://healingwave.github.io/chuaysob/privacy/th"
+      <a href="https://healingwave.github.io/chuaysob/privacy/th" class="link"
         >นโยบายความเป็นส่วนตัว</a
       >
-      <a href="https://healingwave.github.io/chuaysob/terms/th"
+      <a href="https://healingwave.github.io/chuaysob/terms/th" class="link"
         >ข้อกำหนดและเงื่อนไข</a
       >
-      <a href="https://facebook.com/chuaysob">เพจเฟสบุ๊ค</a>
-      <a href="https://healingwave.github.io/chuaysob/contact">ติดต่อเรา</a>
+      <a href="https://facebook.com/chuaysob" class="link">เพจเฟสบุ๊ค</a>
+      <a href="https://healingwave.github.io/chuaysob/contact" class="link"
+        >ติดต่อเรา</a
+      >
     </div>
   </body>
 </html>
