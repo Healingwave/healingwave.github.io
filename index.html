@@ -40,8 +40,8 @@
       }
       hr.divider {
         height: 1px;
-        color: #D3D3D3;
-        background-color: #D3D3D3;
+        color: #d3d3d3;
+        background-color: #d3d3d3;
         border: none;
       }
 
@@ -75,6 +75,12 @@
           margin: 0 auto !important;
           float: none !important;
           padding: 0 0 1em 0;
+        }
+        .projectsSection {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
         }
         .footerSection {
           display: flex;
@@ -114,6 +120,10 @@
           float: none !important;
           padding: 0 1em 1em 1em;
         }
+        .projectsSection {
+          display: flex;
+          flex-direction: column;
+        }
         .footerSection {
           display: flex;
           flex-direction: column;
@@ -136,36 +146,58 @@
     <div class="mainSection">
       <h2><strong>About me</strong></h2>
       <p>
-        นักพัฒนาตัวน้อยๆคนนึงที่มีไฟในการเขียนแอปมือถือและชอบศึกษาเทคโนโลยีการพัฒนาแอป
-        สามารถออกแบบและพัฒนาแอปได้ตั้งแต่ต้นจนเกือบจบแต่ชอบไปติดแหง่กที่ชื่อและโลโก้
+        Software Engineer ตัวน้อยๆคนนึงที่มีไฟในการเขียนแอปฯมือถือและชอบศึกษาเทคโนโลยีการพัฒนาแอปฯ
+        สามารถออกแบบและพัฒนาแอปฯได้ตั้งแต่ต้นจนเกือบจบแต่ชอบไปติดแหง่กที่ชื่อและโลโก้
         อย่างไรก็ตามก็ยังชอบเขียนอะไรเรื่อยเปื่อยฆ่าเวลาอยู่ดี
       </p>
     </div>
 
     <div class="mainSection">
-      <h2><strong>My Project(s)</strong></h2>
-      <div style="display: flex; flex-direction: row; align-items: center">
-        <a href="https://healingwave.github.io/chuaysob/">
-          <img
-            class="appLogo"
-            src="./chuaysob/assets/chuay_sob.png"
-            alt="ช่วยสอบ"
-          />
-        </a>
-        <div style="margin-left: 1em">
-          <h3 style="margin: 0 0 4px 0">
-            <a href="https://healingwave.github.io/chuaysob/" class="link"
-              >ช่วยสอบ</a
-            >
-          </h3>
-          <div class="subtitleText">ตัวช่วยในการสอบอันดับ 1 ของคุณ</div>
-          <div class="subtitleText">★★★★★</div>
+      <h2><strong>My Projects</strong></h2>
+      <div class="projectsSection">
+        <div style="display: flex; flex-direction: row; align-items: center; margin-bottom: 1em;">
+          <a href="https://healingwave.github.io/chuaysob/">
+            <img
+              class="appLogo"
+              src="./chuaysob/assets/chuay_sob.png"
+              alt="ช่วยสอบ"
+            />
+          </a>
+          <div style="margin-left: 1em">
+            <h3 style="margin: 0 0 4px 0">
+              <a href="https://healingwave.github.io/chuaysob/" class="link"
+                >ช่วยสอบ</a
+              >
+            </h3>
+            <div class="subtitleText">ตัวช่วยในการสอบอันดับ 1 ของคุณ</div>
+            <div class="subtitleText">★★★★★</div>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: row; align-items: center">
+          <a href="https://healingwave.github.io/chuayjeen/">
+            <img
+              class="appLogo"
+              src="./chuayjeen/assets/chuay_jeen.png"
+              alt="ช่วยจีน"
+            />
+          </a>
+          <div style="margin-left: 1em">
+            <h3 style="margin: 0 0 4px 0">
+              <a href="https://healingwave.github.io/chuayjeen/" class="link"
+                >ช่วยจีน</a
+              >
+            </h3>
+            <div class="subtitleText">ตัวช่วยภาษาจีนอันดับ 1 ของคุณ</div>
+          </div>
         </div>
       </div>
     </div>
 
     <div class="mainSection">
-      <h2 style="margin-bottom: 1em; margin-top: 1.5em;"><strong>My Blogs</strong></h2>
+      <h2 style="margin-bottom: 1em; margin-top: 1.5em">
+        <strong>My Blogs</strong>
+      </h2>
       <h3 style="margin-bottom: 8px">
         <a
           href="https://medium.com/@sunrise._/flutter-กับ-stacked-architecture-part-1-4742e73fb48d/"
